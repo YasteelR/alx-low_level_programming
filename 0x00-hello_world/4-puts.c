@@ -1,6 +1,10 @@
 #include <stdio.h>
+
+
 /**
- * print fn
+ *   main - Entry point
+ *   
+ *   Return: 0 
  *
  */
 
