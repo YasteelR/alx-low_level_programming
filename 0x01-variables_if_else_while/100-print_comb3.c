@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - allcomonatins of 2 digits 
+ * main - allcomonatins of 2 digits
  * Return: always 0
  */
 int main(void)
