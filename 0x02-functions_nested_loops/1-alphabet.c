@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints "Holberton" followed by a new line.
+ * main - Prints the alphabet
  * Return: Always 0.
  */
 void print_alphabet(void)
