@@ -14,7 +14,7 @@ void times_table(void)
 		for (v = 1 ; v < 10 ; v++)
 		{
 			int sum = v * h;
-			
+
 			_putchar(',');
 			if (sum / 100 == 0)
 			{
