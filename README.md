@@ -1,1 +1,1 @@
-readme for c lang
+Readme for functions and nested loops
