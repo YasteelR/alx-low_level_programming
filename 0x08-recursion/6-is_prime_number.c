@@ -15,7 +15,7 @@ int prime2(int a, int b)
 	return (prime2(a, b + 1));
 }
 /**
- * is_prime_number - checks if its a prime no. number or not 
+ * is_prime_number - checks if its a prime no. number or not
  * @n: Integer
  * Return: On success 1.
  */
