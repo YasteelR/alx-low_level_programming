@@ -26,9 +26,9 @@ int _isnumber(char *s)
 }
 /**
  * main - Entry point
- * @argc: counter 
+ * @argc: counter
  * @argv: pointer array of strings
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(int argc, char **argv)
 {
