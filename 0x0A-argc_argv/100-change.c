@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
 * main - change calculating function
+* @argc: counter
 * @argv: pointer array of strings
 * Return: 0 or 1
 **/
