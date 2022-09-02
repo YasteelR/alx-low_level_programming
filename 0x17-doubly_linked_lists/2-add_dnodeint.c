@@ -3,7 +3,7 @@
 /**
  * add_dnodeint - insert a new node @ head
  * @head: Pointer to new head
- * @len: holds new node
+ * @n: holds new node
  * Return: Address of new node
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
@@ -14,7 +14,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (!node)
 		return (NULL);
 
-	node->len = n;
+	node->n = n;
 	node->prev = NULL;
 	node->next = *head;
 	if (*head)

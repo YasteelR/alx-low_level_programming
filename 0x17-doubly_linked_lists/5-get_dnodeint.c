@@ -9,17 +9,17 @@
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *trverse;
-	unsigned int len;
+	unsigned int n;
 
 	trverse = head;
-	len = 0;
+	n = 0;
 
 	while (trverse)
 	{
-		if (len == index)
+		if (n == index)
 			return (trverse);
 		trverse = trverse->next;
-		++len;
+		++n;
 	}
 	return (NULL);
 }
