@@ -23,6 +23,7 @@ size_t dlistint_len(const dlistint_t *h)
 /**
  * delete_dnodeint_at_index - Deletes node @ specific position
  * @head: Pointer to head
+ * @index: Index of node to be deleted
  * Return: 1
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
